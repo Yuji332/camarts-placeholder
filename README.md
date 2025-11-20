@@ -1,4 +1,6 @@
-# CamArts Placeholder Generator
+English | [简体中文](/README_zh.md)
+
+# 🎨 CamArts Placeholder Generator
 
 <div align="center">
   <img src="photo.png" alt="CamArts Placeholder" width="200"/>
@@ -10,11 +12,9 @@
 
 ## 🎯 Project Description
 
-### 🎨 CamArts Placeholder Generator
-
 An intelligent image analysis tool that extracts dominant colors from any image to generate beautiful CSS gradient placeholders. Perfect for placeholder effects before image loading, enhancing user experience.
 
-**Key Features:**
+**Features:**
 - 🔍 Smart extraction of top, middle, and bottom dominant colors
 - 🌈 Automatic CSS gradient background generation
 - 🎨 Intelligent shadow color calculation
@@ -35,7 +35,7 @@ An intelligent image analysis tool that extracts dominant colors from any image 
 
 ```bash
 # Clone the project
-git clone <repository-url>
+git clone https://github.com/hulk-2019/camarts-placeholder.git
 cd camarts-placeholder
 
 # Install dependencies
@@ -99,7 +99,18 @@ camarts-placeholder/
   <br>
   <em>Original Image</em>
   <br><br>
-  <div style="width: 300px; height: 171px; border-radius: 12px; background: linear-gradient(180deg, #b68479 0%, #af8378 50%, #b19c98 100%); box-shadow: 0 16px 60px 0 rgba(73,53,26,.3),0 6px 12px 0 rgba(0,0,0,.1);"></div>
+  <div style="
+    width:300px;
+    height:171px;
+    border-radius:12px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    background:-webkit-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
+    background:-moz-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
+    background:-o-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
+    background:linear-gradient(180deg, #b68479 0%, #af8378 50%, #b19c98 100%);
+    box-shadow:0 16px 60px 0 rgba(73,53,26,.3), 0 6px 12px 0 rgba(0,0,0,.1);
+  "></div>
   <br>
   <em>Generated Placeholder</em>
 </div>

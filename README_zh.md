@@ -1,4 +1,6 @@
-# CamArts 占位图生成器
+简体中文 | [English](/README.md)
+
+# 🎨 CamArts 占位图生成器
 
 <div align="center">
   <img src="photo.png" alt="CamArts Placeholder" width="200"/>
@@ -9,9 +11,6 @@
 ---
 
 ## 🎯 项目介绍
-
-### 🎨 CamArts 占位图生成器
-
 这是一个智能的图片分析工具，能够从任意图片中提取主要颜色，生成美观的CSS渐变占位图。特别适用于图片加载前的占位效果，提升用户体验。
 
 **核心功能：**
@@ -35,7 +34,7 @@
 
 ```bash
 # 克隆项目
-git clone <repository-url>
+git clone https://github.com/hulk-2019/camarts-placeholder.git
 cd camarts-placeholder
 
 # 安装依赖
@@ -98,7 +97,18 @@ camarts-placeholder/
   <br>
   <em>原始图片</em>
   <br><br>
-  <div style="width: 300px; height: 171px; border-radius: 12px; background: linear-gradient(180deg, #b68479 0%, #af8378 50%, #b19c98 100%); box-shadow: 0 16px 60px 0 rgba(73,53,26,.3),0 6px 12px 0 rgba(0,0,0,.1);"></div>
+  <div style="
+    width:300px;
+    height:171px;
+    border-radius:12px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    background:-webkit-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
+    background:-moz-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
+    background:-o-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
+    background:linear-gradient(180deg, #b68479 0%, #af8378 50%, #b19c98 100%);
+    box-shadow:0 16px 60px 0 rgba(73,53,26,.3), 0 6px 12px 0 rgba(0,0,0,.1);
+  "></div>
   <br>
   <em>生成的占位图</em>
 </div>
