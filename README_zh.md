@@ -3,7 +3,7 @@
 # 🎨 CamArts 占位图生成器
 
 <div align="center">
-  <img src="photo.png" alt="CamArts Placeholder" width="200"/>
+  <img src="/public/photo.png" alt="CamArts Placeholder" width="600"/>
   <br>
   <br>
 </div>
@@ -85,30 +85,23 @@ camarts-placeholder/
 ├── generator.js          # 主程序文件
 ├── package.json          # 项目配置
 ├── package-lock.json     # 依赖锁定
-├── preview.html          # 生成的预览文件
-├── photo.png             # 示例图片
-└── README.md            # 项目文档
+├── LICENSE              # MIT 许可证文件
+├── .gitignore           # Git 忽略文件
+├── README.md            # 项目文档 (英文)
+├── README_zh.md         # 项目文档 (中文)
+└── public/              # 公共资源目录
+    ├── photo.png         # 示例图片
+    └── placeholder.png   # 生成的占位图
 ```
 
 ## 🎨 效果展示
 
 <div align="center">
-  <img src="photo.png" alt="原始图片" width="300"/>
+  <img src="/public/photo.png" alt="原始图片" width="360"/>
   <br>
   <em>原始图片</em>
   <br><br>
-  <div style="
-    width:300px;
-    height:171px;
-    border-radius:12px;
-    -webkit-border-radius:12px;
-    -moz-border-radius:12px;
-    background:-webkit-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
-    background:-moz-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
-    background:-o-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
-    background:linear-gradient(180deg, #b68479 0%, #af8378 50%, #b19c98 100%);
-    box-shadow:0 16px 60px 0 rgba(73,53,26,.3), 0 6px 12px 0 rgba(0,0,0,.1);
-  "></div>
+  <img src="/public/placeholder.png" alt="原始图片" width="360"/>
   <br>
   <em>生成的占位图</em>
 </div>

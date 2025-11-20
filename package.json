@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node generator.js photo.png"
+    "start": "node generator.js public/photo.png"
   },
   "keywords": [],
   "author": "",

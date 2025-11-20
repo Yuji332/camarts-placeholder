@@ -3,7 +3,7 @@ English | [简体中文](/README_zh.md)
 # 🎨 CamArts Placeholder Generator
 
 <div align="center">
-  <img src="photo.png" alt="CamArts Placeholder" width="200"/>
+  <img src="/public/photo.png" alt="CamArts Placeholder" width="600"/>
   <br>
   <br>
 </div>
@@ -86,31 +86,23 @@ camarts-placeholder/
 ├── generator.js          # Main program file
 ├── package.json          # Project configuration
 ├── package-lock.json     # Dependency lock
-├── preview.html          # Generated preview file
-├── photo.png             # Example image
-├── README.md            # Project documentation
-└── README_zh.md         # Chinese documentation
+├── LICENSE              # MIT license file
+├── .gitignore           # Git ignore file
+├── README.md            # Project documentation (English)
+├── README_zh.md         # Project documentation (Chinese)
+└── public/              # Public assets directory
+    ├── photo.png         # Example image
+    └── placeholder.png   # Generated placeholder image
 ```
 
 ## 🎨 Demo
 
 <div align="center">
-  <img src="photo.png" alt="Original Image" width="300"/>
+  <img src="/public/photo.png" alt="Original Image" width="360"/>
   <br>
   <em>Original Image</em>
   <br><br>
-  <div style="
-    width:300px;
-    height:171px;
-    border-radius:12px;
-    -webkit-border-radius:12px;
-    -moz-border-radius:12px;
-    background:-webkit-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
-    background:-moz-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
-    background:-o-linear-gradient(top, #b68479 0%, #af8378 50%, #b19c98 100%);
-    background:linear-gradient(180deg, #b68479 0%, #af8378 50%, #b19c98 100%);
-    box-shadow:0 16px 60px 0 rgba(73,53,26,.3), 0 6px 12px 0 rgba(0,0,0,.1);
-  "></div>
+  <img src="/public/placeholder.png" alt="原始图片" width="360"/>
   <br>
   <em>Generated Placeholder</em>
 </div>
